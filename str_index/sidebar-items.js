@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["StrIndex","An index into a string."],["StrRange","A range of a string, represented as a half-open range of `StrIndex`."]]});

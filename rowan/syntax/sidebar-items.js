@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["Children","Children nodes in the syntax tree."],["Generic","Generic treatment of language trees."],["Node","Node (or token) in the syntax tree."],["Text","Text of a node in the syntax tree."],["Token","Token in the syntax tree."]],"trait":[["Language","Specialization information for a particular language grammar."]]});

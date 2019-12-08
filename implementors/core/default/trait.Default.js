@@ -1,0 +1,10 @@
+(function() {var implementors = {};
+implementors["rowan"] = [{text:"impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/default/trait.Default.html\" title=\"trait core::default::Default\">Default</a> for <a class=\"struct\" href=\"rowan/green/struct.GreenBuilder.html\" title=\"struct rowan::green::GreenBuilder\">GreenBuilder</a>",synthetic:false,types:["rowan::green::builder::GreenBuilder"]},{text:"impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/default/trait.Default.html\" title=\"trait core::default::Default\">Default</a> for <a class=\"struct\" href=\"rowan/green/struct.GreenTreeBuilder.html\" title=\"struct rowan::green::GreenTreeBuilder\">GreenTreeBuilder</a>",synthetic:false,types:["rowan::green::builder::GreenTreeBuilder"]},{text:"impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/default/trait.Default.html\" title=\"trait core::default::Default\">Default</a> for <a class=\"struct\" href=\"rowan/syntax/struct.Generic.html\" title=\"struct rowan::syntax::Generic\">Generic</a>",synthetic:false,types:["rowan::syntax::Generic"]},];
+implementors["str_index"] = [{text:"impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/default/trait.Default.html\" title=\"trait core::default::Default\">Default</a> for <a class=\"struct\" href=\"str_index/struct.StrIndex.html\" title=\"struct str_index::StrIndex\">StrIndex</a>",synthetic:false,types:["str_index::StrIndex"]},{text:"impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/default/trait.Default.html\" title=\"trait core::default::Default\">Default</a> for <a class=\"struct\" href=\"str_index/struct.StrRange.html\" title=\"struct str_index::StrRange\">StrRange</a>",synthetic:false,types:["str_index::StrRange"]},];
+
+            if (window.register_implementors) {
+                window.register_implementors(implementors);
+            } else {
+                window.pending_implementors = implementors;
+            }
+        })()

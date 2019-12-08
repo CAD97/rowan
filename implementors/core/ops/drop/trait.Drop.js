@@ -1,0 +1,11 @@
+(function() {var implementors = {};
+implementors["erasable"] = [{text:"impl&lt;P:&nbsp;<a class=\"trait\" href=\"erasable/trait.ErasablePtr.html\" title=\"trait erasable::ErasablePtr\">ErasablePtr</a>&gt; <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/ops/drop/trait.Drop.html\" title=\"trait core::ops::drop::Drop\">Drop</a> for <a class=\"struct\" href=\"erasable/struct.Thin.html\" title=\"struct erasable::Thin\">Thin</a>&lt;P&gt;",synthetic:false,types:["erasable::Thin"]},];
+implementors["rc_box"] = [{text:"impl&lt;T:&nbsp;?<a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/marker/trait.Sized.html\" title=\"trait core::marker::Sized\">Sized</a>&gt; <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/ops/drop/trait.Drop.html\" title=\"trait core::ops::drop::Drop\">Drop</a> for <a class=\"struct\" href=\"rc_box/struct.ArcBox.html\" title=\"struct rc_box::ArcBox\">ArcBox</a>&lt;T&gt;",synthetic:false,types:["rc_box::ArcBox"]},{text:"impl&lt;T:&nbsp;?<a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/marker/trait.Sized.html\" title=\"trait core::marker::Sized\">Sized</a>&gt; <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/ops/drop/trait.Drop.html\" title=\"trait core::ops::drop::Drop\">Drop</a> for <a class=\"struct\" href=\"rc_box/struct.RcBox.html\" title=\"struct rc_box::RcBox\">RcBox</a>&lt;T&gt;",synthetic:false,types:["rc_box::RcBox"]},];
+implementors["rowan"] = [{text:"impl&lt;Lang&gt; <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/ops/drop/trait.Drop.html\" title=\"trait core::ops::drop::Drop\">Drop</a> for <a class=\"struct\" href=\"rowan/syntax/struct.Node.html\" title=\"struct rowan::syntax::Node\">Node</a>&lt;Lang&gt;",synthetic:false,types:["rowan::syntax::node::Node"]},];
+
+            if (window.register_implementors) {
+                window.register_implementors(implementors);
+            } else {
+                window.pending_implementors = implementors;
+            }
+        })()
